@@ -1,0 +1,20 @@
+{
+  "name": "hexo-lambda-deploy",
+  "version": "1.0.0",
+  "description": "A simple AWS Lambda function to build and deploy small Hexo blogs into GitHub pages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "lambda",
+    "deploy"
+  ],
+  "author": "Mandus Momberg",
+  "license": "ISC",
+  "dependencies": {
+    "hexo": "^3.3.9",
+    "nodegit": "^0.20.1"
+  }
+}
